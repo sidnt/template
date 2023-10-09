@@ -100,8 +100,7 @@
     return ({ update }) => {
       update({ reset: false });
     };
-  }}
->
+  }}>
   <a class="how-to-play" href="/sverdle/how-to-play">How to play</a>
 
   <div class="grid" class:playing={!won} class:bad-guess={form?.badGuess}>
@@ -154,8 +153,7 @@
           data-key="backspace"
           formaction="?/update"
           name="key"
-          value="backspace"
-        >
+          value="backspace">
           back
         </button>
 
@@ -170,8 +168,7 @@
                 formaction="?/update"
                 name="key"
                 value={letter}
-                aria-label="{letter} {description[letter] || ''}"
-              >
+                aria-label="{letter} {description[letter] || ''}">
                 {letter}
               </button>
             {/each}
@@ -191,8 +188,7 @@
       stageWidth: window.innerWidth,
       stageHeight: window.innerHeight,
       colors: ["#ff3e00", "#40b3ff", "#676778"],
-    }}
-  />
+    }} />
 {/if}
 
 <style>
