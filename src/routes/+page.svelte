@@ -25,6 +25,8 @@
     try editing <strong>src/routes/+page.svelte</strong>
   </h2>
 
+  <div class="text-2xl text-blue-500">I was styled using tailwind!</div>
+
   <Counter />
 </section>
 
